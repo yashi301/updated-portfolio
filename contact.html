@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashi-Web Developer</title>
+    
+
+    
+<style>
+    /* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Jost:ital,wght@1,300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap'); */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+h1{
+    font-size: 3rem;
+    /* font-family: 'Baloo 2', cursive;  */
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2rem; 
+}
+.contactme{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+form Message{
+    margin-left: 8rem;
+    margin-top: -2em;
+}
+.contactme textarea{
+    margin-top: -2em;
+    margin-left: 8rem;
+    /* border-radius: 1rem; */
+}
+button{
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    width: 7rem;
+height: 3rem;
+margin-top: 2rem;
+border-radius: 2rem;
+
+}
+body{
+    background-color: rgb(41, 35, 35);
+    color:azure;
+}
+button:hover{
+    background: linear-gradient(45deg, rgb(255, 28, 119), rgb(46, 179, 223));
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+
+    
+    
+</style>
+</head>
+
+<body>
+    <section>
+        <div class="contact">
+            <h1 class="contact-me">Contact Me:</h1>
+            <div class="contactme">
+                <form action="form.php">
+                    <label for="sectionida">
+                Name:    <input type="text" placeholder="Your Name" name="your name"></label><br><br>
+                E-mail:  <input type="text" placeholder="your e-mail address" name="email"><br><br>
+                Message: <br><textarea rows="10" cols="50" placeholder="suggestion or your message" name="message"></textarea><br>
+                <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>  
+    
+        
+
+</body>
+
+</html>
